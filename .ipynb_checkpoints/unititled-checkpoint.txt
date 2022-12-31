@@ -1,0 +1,4 @@
+Mathematical operation: Mean
+Numbers: [1.0, 2.0, 3.0]
+
+Mean of numbers = 2.0

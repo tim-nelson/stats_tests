@@ -1,4 +1,4 @@
-"""This module initialises and runs an app for the Section B problem.
+"""This module initialises and runs the stats tests app.
 
 The app is initialised using the App class which links together a
 frontend (GUI) and backend (Server). This is done by calling link functions
@@ -6,12 +6,12 @@ in the GUI and Server modules.
 """
 
 from gui import GUI
-#from gui_placeholder import GUI
 from server import Server
 
 
 class App:
     """An app that combines a frontend (GUI) and backend (server)."""
+
     def __init__(self):
         """Initialise the GUI and sever, and links them."""
         self.gui = GUI()
